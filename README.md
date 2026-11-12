@@ -16,8 +16,13 @@ Breast Cancer Wisconsin dataset (UCI ML Repository, via scikit-learn).
 - Evaluation: Precision, Recall, F1-Score, ROC-AUC
 
 ## Results
-Best model: (yahan apne model ka naam likho)
-ROC-AUC: (yahan score likho)
+| Model | Accuracy | ROC-AUC |
+|---|---|---|
+| Logistic Regression | 0.97 | 0.9974 |
+| Random Forest | 0.96 | 0.9953 |
+| SVM | 0.98 | 0.9974 |
+
+Best model: SVM (Accuracy 0.98, ROC-AUC 0.997)
 
 ## Tools
 Python, Pandas, Scikit-learn, Google Colab
